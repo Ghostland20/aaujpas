@@ -1,0 +1,15 @@
+.contact_nw{
+    @apply w-full h-full flex flex-col items-center justify-start px-52 text-center;
+}
+
+.head_nw{
+    @apply font-bold text-lg;
+}
+
+.address_nw{
+    @apply text-left w-full flex flex-col justify-start items-start;
+}
+
+.w_link{
+    @apply text-[blue] font-bold;
+}

@@ -1,0 +1,22 @@
+.eboard{
+    @apply w-full h-full flex flex-col items-center justify-start px-52 text-center;
+}
+
+.head{
+    @apply py-2 font-bold text-lg;
+}
+
+.titles{
+    @apply py-2 text-center w-full font-bold flex-col justify-start items-start ;
+}
+
+.main{
+    @apply w-full ;
+}
+.context_eb{
+    @apply w-full mt-5 flex text-right justify-center;
+}
+
+.testc{
+    @apply border-2 border-red-500;
+}

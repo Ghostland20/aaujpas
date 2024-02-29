@@ -1,0 +1,15 @@
+.content{
+    @apply  w-full h-full flex flex-col items-center justify-start px-52 text-center;
+}
+
+.head{
+    @apply font-bold text-lg;
+}
+
+.info{
+    @apply  text-left w-full flex justify-start items-start;
+}
+
+.r_txt{
+    @apply text-[red];
+}

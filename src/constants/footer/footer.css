@@ -1,0 +1,11 @@
+footer{
+    @apply w-full p-[16px] flex justify-between items-center bg-[--main] text-white;
+}
+
+.socials{
+    @apply flex gap-2 cursor-pointer;
+}
+
+.social-btn{
+    @apply text-xl hover:scale-125;
+}

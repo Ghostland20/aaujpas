@@ -1,0 +1,20 @@
+/* Header Section*/
+
+.header{
+    @apply w-full bg-[--main] text-white p-[20px] flex justify-center items-center gap-8 rounded-b-[32px] ;
+}
+
+.header-text{
+    @apply flex flex-col items-center justify-center font-bold;
+}
+
+.logo{
+    @apply w-[60px] h-[60px];
+}
+
+
+/* Navbar Section*/
+
+.navbar{
+    @apply w-full p-3 flex justify-center items-center gap-5 ;
+}
