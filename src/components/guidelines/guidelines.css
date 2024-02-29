@@ -3,7 +3,7 @@
 }
 
 .head{
-    @apply py-2 font-bold text-lg;
+    @apply py-2 font-bold ;
 }
 
 .pom{
@@ -23,5 +23,5 @@
 }
 
 .test{
-    @apply w-full;
+    @apply w-full mb-5;
 }

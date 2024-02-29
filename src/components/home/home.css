@@ -11,7 +11,7 @@
 }
 
 .p_text{
-    @apply flex flex-col gap-5 w-[75%] text-justify;
+    @apply flex flex-col gap-5 w-[75%] text-justify ;
 }
 
 

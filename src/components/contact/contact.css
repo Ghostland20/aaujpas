@@ -3,7 +3,7 @@
 }
 
 .head{
-    @apply font-bold text-lg;
+    @apply font-bold;
 }
 
 .address{

@@ -21,7 +21,7 @@ const Home = () => {
         <span className='span'>SUBCRIBE TO OUR NEWSLETTER</span>
         <form className='form'>
           <input type="text" placeholder='Enter Your Email' className='input' />
-          <a href='/newsletter'> <button className='btn'>SUBCRIBE</button> </a>
+          <a href='/newsletter'><div className='btn'>SUBCRIBE</div></a>
         </form>
       </div>
 
@@ -29,3 +29,5 @@ const Home = () => {
   )
 }
 
+
+export default Home

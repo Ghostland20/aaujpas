@@ -3,7 +3,7 @@
 }
 
 .head{
-    @apply py-2 font-bold text-lg;
+    @apply py-2 font-bold text-2xl;
 }
 
 .titles{
