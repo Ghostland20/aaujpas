@@ -1,6 +1,6 @@
 import React from "react";
 import { Navbar, Footer } from './constants'
-import { Archive, ArchiveList, Home, Contact, Eboard, Guidelines, Papers, Newsletter } from "./components";
+import { Archive, ArchiveList, Announcement, Home, Contact, Eboard, Guidelines, Papers, Newsletter } from "./components";
 import './index.css'
 
 import { Routes, Route } from 'react-router-dom'
@@ -25,6 +25,7 @@ const App = () => {
         </Routes>
       </div>
         
+      <Announcement/>
       <Footer/>
     </div>
   )
