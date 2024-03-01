@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import{ useParams } from 'react-router-dom'
+import{ Link, useParams } from 'react-router-dom'
 import { client } from '../../client'
 import { BsFillFileEarmarkPdfFill } from "react-icons/bs";
 import './archive.css'
@@ -21,11 +21,7 @@ const ArchiveList = () => {
             pages,
             author,
             number,
-            file{
-              asset->{
-                url
-              }
-            },
+            "fileURL" : file.asset->url,
             volume
         }`, {year}
         
@@ -47,9 +43,9 @@ const ArchiveList = () => {
                 <div key={item.title} className='item'>
                   
                   <div className='download'>
-                  <a href={`${item.file}`} target="_blank" rel="noopener noreferrer">
+                  <Link to={`${item.fileURL}`} target="_blank">
                   <BsFillFileEarmarkPdfFill size={50}/>    
-                  </a> 
+                  </Link> 
                   </div>
 
                     <div className='text'>
