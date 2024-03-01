@@ -36,7 +36,7 @@ const ArchiveList = () => {
 
   return (
     <>
-        {isLoading ? <LoadingComponent/> :
+        {isLoading || archives.length === 0 ? <LoadingComponent/> :
          
             <div className='list_con'>
                 {archives.map((item) => (
