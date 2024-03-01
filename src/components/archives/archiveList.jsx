@@ -25,7 +25,7 @@ const ArchiveList = () => {
         }`, {year}
         
       ).then(
-            (data) => setArchives(data).sort(),
+            (data) => setArchives(data),
             setIsLoading(false))
        .catch(console.error)
       
