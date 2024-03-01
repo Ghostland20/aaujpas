@@ -1,12 +1,13 @@
 import React, { useState, useEffect } from 'react'
 import{ useParams } from 'react-router-dom'
 import { client } from '../../client'
+import './archive.css'
 
 import LoadingComponent from '../loading/loading'
 
 const ArchiveList = () => {
 
-    const [archive, setArchive] = useState([]);
+    const [archives, setArchives] = useState([]);
     const [isLoading, setIsLoading] = useState(true);
     const { year } = useParams();
 
@@ -16,7 +17,7 @@ const ArchiveList = () => {
         `*[ _type == "journal" && year == $year]{
             year,
             title,
-            desc,
+            pages,
             author,
             number,
             file,
@@ -24,7 +25,7 @@ const ArchiveList = () => {
         }`, {year}
         
       ).then(
-            (data) => setArchive(data),
+            (data) => setArchives(data).sort(),
             setIsLoading(false))
        .catch(console.error)
       
@@ -33,10 +34,20 @@ const ArchiveList = () => {
 
 
   return (
-    <div>
+    <>
         {isLoading ? <LoadingComponent/> :
-         <div>My files came through</div>}
-    </div>
+         
+            <div className='list_con'>
+                {archives.map((item) => (
+                <div key={item.title} className='item'>
+                    <div><b>Title:</b>   {item.title}</div>
+                    <div><b>Author:</b>   <b>{item.author}</b></div>
+                    <div><b>Pages:</b>   {item.pages}</div>
+                </div>
+            ))}
+            </div>
+        }
+    </>
   )
 }
 
