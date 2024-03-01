@@ -40,9 +40,9 @@
 } 
 
 .text{
-    @apply w-full flex flex-col gap-3;
+    @apply w-full flex flex-col gap-1;
 } 
 
 .download{
-    @apply p-3 text-red-500 cursor-pointer;
+    @apply text-red-500 cursor-pointer;
 }
