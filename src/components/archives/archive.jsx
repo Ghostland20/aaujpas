@@ -13,11 +13,6 @@ const Archive = () => {
             </div>
 
             <div className='archive_list'>
-              <div className='a_item'>
-                <span>2024</span>
-                  <p>VOLUME 4:</p>
-                  <Link to={`/archive/${"2024"}`}>Number 1</Link>
-              </div>
 
               <div className='a_item'>
               <span>2023</span>
