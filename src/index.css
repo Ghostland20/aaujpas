@@ -67,7 +67,7 @@ body{
 /*Tailwind Styles*/
 
 .btn{
-  @apply flex justify-center items-center bg-[--secondary] p-[10px] text-white border-[1px] border-[--secondary] rounded-2xl w-[140px] text-[14px] font-medium cursor-pointer transition;
+  @apply flex justify-center items-center bg-[--secondary] p-[10px] text-white border-[1px] border-[--secondary] rounded-2xl min-w-[140px] text-[14px] font-medium cursor-pointer transition;
 }
 
 .btn:hover{
