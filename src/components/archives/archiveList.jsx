@@ -47,8 +47,9 @@ const ArchiveList = () => {
                 <div key={item.title} className='item'>
                   
                   <div className='download'>
-                  <a href={`${item.file.asset.url}`} target="_blank">
-                  <BsFillFileEarmarkPdfFill size={50}/></a>                 
+                  <a href={`${item.file}`} target="_blank" rel="noopener noreferrer">
+                  <BsFillFileEarmarkPdfFill size={50}/>    
+                  </a> 
                   </div>
 
                     <div className='text'>

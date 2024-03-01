@@ -1,5 +1,6 @@
 import Archive from './archives/archive'
 import ArchiveList from './archives/archiveList'
+import Announcement from './announcement/announcement'
 import Home from './home/home'
 import Contact from './contact/contact'
 import Eboard from './eboard/eboard'
@@ -15,5 +16,6 @@ export {
     Eboard,
     Guidelines,
     Papers,
-    Newsletter
+    Newsletter,
+    Announcement
 }
