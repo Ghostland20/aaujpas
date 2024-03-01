@@ -9,3 +9,20 @@
 .info{
     @apply text-left w-full flex justify-start items-start;
 }
+
+.archive_list{
+    @apply w-full mt-10  flex flex-col justify-start items-center gap-5;
+}
+
+.a_item{
+    @apply font-bold flex items-center justify-start gap-8;
+}
+
+
+.a_item span{
+    @apply  py-1 px-12 bg-[--secondary] rounded-lg flex items-center justify-center text-white;
+}
+
+.a_item a{
+    @apply text-[--main];
+}
