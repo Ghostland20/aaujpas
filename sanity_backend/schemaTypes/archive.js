@@ -32,6 +32,11 @@ export default defineType({
         type: 'string',
       }),
       defineField({
+        name: 'sort_page',
+        title: 'Sorting Page Number',
+        type: 'string',
+      }),
+      defineField({
         name: 'file',
         title: 'File',
         type: 'file',

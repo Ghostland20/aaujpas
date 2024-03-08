@@ -19,11 +19,12 @@ const ArchiveList = () => {
             year,
             title,
             pages,
+            sort_page,
             author,
             number,
             "fileURL" : file.asset->url,
             volume
-        }`, {year}
+        } | order(pages asc)`, {year}
         
       ).then(
             (data) => setArchives(data),
