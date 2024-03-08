@@ -9,6 +9,7 @@ import LoadingComponent from '../loading/loading'
 const ArchiveList = () => {
 
     const [archives, setArchives] = useState([]);
+    const [sortedArchive, setsortedArchives] = useState([]);
     const [isLoading, setIsLoading] = useState(true);
     const { year } = useParams();
 
@@ -24,14 +25,23 @@ const ArchiveList = () => {
             number,
             "fileURL" : file.asset->url,
             volume
-        } | order(pages asc)`, {year}
+        } | order(sort_page asc)`, {year}
         
       ).then(
             (data) => setArchives(data),
-            setIsLoading(false))
+        )
        .catch(console.error)
-      
     }, [year])
+    
+
+    useEffect(() => {
+      const sorted = archives.sort((a, b) => a.sort_page - b.sort_page)
+      setsortedArchives(sorted)
+      setIsLoading(false)
+    }, [archives])
+    
+    
+    
     
 
 
