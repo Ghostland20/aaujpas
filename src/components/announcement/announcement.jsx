@@ -4,7 +4,7 @@ import Marquee from "react-fast-marquee";
 const Announcement = () => {
   return (
     <>
-        <div className='bg-[--main] text-white flex justify-between items-center py-2 text-lg '>
+        <div className='bg-[--main] text-white flex justify-between items-center py-1 md:py-2 text-sm md:text-lg '>
             <a href="/papers">
             <Marquee speed={100} gradient={false} >
             <div className='flex items-center mr-8'>

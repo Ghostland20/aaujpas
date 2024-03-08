@@ -1,11 +1,11 @@
 footer{
-    @apply w-full p-[16px] flex justify-between items-center bg-[--main] text-white;
+    @apply w-full gap-2 md:gap-0 p-[8px] md:p-[16px] flex flex-col md:flex-row justify-between items-center bg-[--main] text-white text-[12px] md:text-[16px];
 }
 
 .socials{
-    @apply flex gap-2 cursor-pointer;
+    @apply flex gap-2  cursor-pointer;
 }
 
 .social-btn{
-    @apply text-xl hover:scale-125;
+    @apply text-lg md:text-xl hover:scale-125;
 }

@@ -1,15 +1,15 @@
 /* Header Section*/
 
 .header{
-    @apply w-full bg-[--main] text-white p-[20px] flex justify-center items-center gap-8 rounded-b-[32px] ;
+    @apply w-full bg-[--main] text-[24px] text-white p-[12px] md:p-[20px] flex justify-between md:justify-center items-center md:gap-10 rounded-none md:rounded-b-[32px] ;
 }
 
 .header-text{
-    @apply flex flex-col items-center justify-center font-bold;
+    @apply flex flex-col items-center justify-center font-bold text-[10px] md:text-[20px] ;
 }
 
 .logo{
-    @apply w-[60px] h-[60px];
+    @apply w-[30px] h-[30px] md:w-[60px] md:h-[60px];
 }
 
 
@@ -17,4 +17,12 @@
 
 .navbar{
     @apply w-full p-3 flex justify-center items-center gap-5 ;
+}
+
+.nav-menu{
+    @apply w-full text-[--main] text-[16px] flex flex-col gap-3 items-start justify-start px-5
+}
+
+.nav-item{
+    @apply hover:text-[--secondary];
 }
