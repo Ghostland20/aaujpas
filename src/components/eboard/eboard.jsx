@@ -17,32 +17,37 @@ const Eboard = () => {
                </p>
             </div>
 
-            <div><br/>
-                <div>
+            <div className='w-full mt-10'>
+
+                <div className='mb-10'>
                 <span className='titles'>Assisstant Editor-in-Chief</span>
                 <p>
                 <ul>Prof. I. Aigbedion</ul>
                 </p>
-                </div><br/>
+                </div>
+
+
                 <div>
-                <span className='titles'>Editorial Board Members</span>
-                <p>
-                Prof. O. Ujuanbi (Business Editor)<br/>
-                Prof. (Mrs.) A. Odia<br/>
-                Prof. C.U. Onianwa<br/>
-                Prof. F. O. Ikpotokin<br/>
-                Prof. F. M. Okoro<br/>
-                Prof. I.W. Edokpa<br/>
-                Prof. I. B. A. Momodu<br/>
-                Prof. V. U. Okojie<br/>
-                Prof. G. U. Agbeboh<br/>
-                Prof. S.I. Jegede<br/>
-                Prof. (Mrs) A. Odia<br/>
-                Prof. S. E. Nnebe<br/>
-                Dr. K.O. Ize-Iyamu<br/>
-                Dr. E.O. Egbon<br/>
-                Dr. A.O. Elakhe<br/><br/>
-                </p>
+
+                    <span className='titles'>Editorial Board Members</span>
+                    <div className='grid grid-cols-1 md:grid-cols-3'>
+                        <p>Prof. O. Ujuanbi (Business Editor)</p>
+                        <p>Prof. (Mrs.) A. Odia</p>
+                        <p>Prof. C.U. Onianwa</p>
+                        <p>Prof. F. O. Ikpotokin</p>
+                        <p>Prof. F. M. Okoro</p>
+                        <p>Prof. I.W. Edokpa</p>
+                        <p>Prof. I. B. A. Momodu</p>
+                        <p>Prof. V. U. Okojie</p>
+                        <p>Prof. G. U. Agbeboh</p>
+                        <p>Prof. S.I. Jegede</p>
+                        <p>Prof. (Mrs) A. Odia</p>
+                        <p>Prof. S. E. Nnebe</p>
+                        <p>Dr. K.O. Ize-Iyamu</p>
+                        <p>Dr. E.O. Egbon</p>
+                        <p>Dr. A.O. Elakhe</p>
+                    </div>
+
                 </div>
             </div>
         </div>

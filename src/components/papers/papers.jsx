@@ -21,7 +21,7 @@ const Papers = () => {
             Faculty of Physical Sciences<br/>
             Ambrose Alli University<br/>
             Edo State, Nigeria.<br/>
-            e-mail: <a href="mailto:cletusabhulimen@aauekpoma.edu.ng">  cletusabhulimen@aauekpoma.edu.ng</a><br/>
+            Email: <a href="mailto:cletusabhulimen@aauekpoma.edu.ng">  cletusabhulimen@aauekpoma.edu.ng</a><br/>
             </p>
             
             </div>

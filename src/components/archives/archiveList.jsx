@@ -55,7 +55,7 @@ const ArchiveList = () => {
                   
                   <div className='download'>
                   <Link to={`${item.fileURL}`} target="_blank">
-                  <BsFillFileEarmarkPdfFill size={50}/>    
+                  <BsFillFileEarmarkPdfFill/>    
                   </Link> 
                   </div>
 

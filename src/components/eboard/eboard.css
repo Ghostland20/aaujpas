@@ -1,18 +1,21 @@
 .eboard{
-    @apply w-full h-full flex flex-col items-center justify-start px-52 text-center;
+    @apply w-full md:h-full flex flex-col items-center gap-1 justify-start px-2 md:px-52 text-center;
 }
 
 .head{
-    @apply py-2 font-bold text-2xl;
+    @apply py-2 font-bold text-xl md:text-2xl mb-8 md:mb-0;
 }
 
 .titles{
-    @apply py-2 text-center w-full font-bold flex-col justify-start items-start ;
+    @apply py-3 text-lg md:text-xl text-center w-full font-bold flex-col justify-start items-start underline ;
 }
 
 .main{
     @apply w-full ;
 }
+
+
+
 .context_eb{
     @apply w-full mt-5 flex text-right justify-center;
 }
@@ -20,3 +23,4 @@
 .testc{
     @apply border-2 border-red-500;
 }
+

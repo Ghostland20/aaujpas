@@ -9,7 +9,7 @@ const Guidelines = () => {
 
             <div className='test'>
                <span className='pom'>PREPARATION OF MANUSCRIPT</span>
-               <p className='title'> Title: </p>
+               <p className='title'> TITLE: </p>
                <p className='context'>
                The title must be specific, brief but informative so as to reflect all important aspects of the articles. Title should be 
                followed by Authors name and full address. All these should be in capital letters and not underlined. A short title 
