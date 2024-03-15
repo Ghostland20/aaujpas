@@ -46,7 +46,7 @@ const ArchiveList = () => {
 
 
   return (
-    <>
+    <div className='w-full'>
         {isLoading ? <LoadingComponent/> :
          
             <div className='list_con'>
@@ -69,7 +69,7 @@ const ArchiveList = () => {
             ))}
             </div>
         }
-    </>
+    </div>
   )
 }
 
