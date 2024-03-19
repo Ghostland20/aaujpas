@@ -35,7 +35,7 @@ const Navbar = () => {
       
                   className='fixed flex top-5 right-3 z-30 pb-10 pr-3 w-[200px] flex-col justify-start items-end bg-[#ffff] rounded-xl shadow-2xl'
                 >
-                  <HiX className='w-[35px] h-[35px] mt-2 text-[--main] cursor-pointer'onClick={() => setToggle(false)} />
+                  <HiX className='w-[35px] h-[35px] mt-2 text-[--main] cursor-pointer' onClick={() => setToggle(false)} />
 
                   <div className='nav-menu '>
                         <a href='/'>
